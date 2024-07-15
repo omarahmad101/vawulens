@@ -4,7 +4,7 @@ import './gallary.css'
 const Gallary = () => {
   return (
     <div>
-      
+      Gallaryssss
     </div>
   )
 }

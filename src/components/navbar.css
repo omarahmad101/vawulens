@@ -4,7 +4,7 @@ nav {
     background: var(--color-primary);
     display: grid;
     place-items: center;
-    position: fixed;
+
     top: 0;
     left: 0;
     z-index: 99;
@@ -74,6 +74,7 @@ nav {
       right: 0;
       flex-direction: column;
       gap: 0;
+      perspective: 400px;
     }
   
     .active-nav,
@@ -103,5 +104,13 @@ nav {
     .hide__nav {
       display: none;
     }
+
+    .nav__links li {
+      height: 4rem;
+      width: 100%;
+      box-shadow: -2rem 2rem 5rem rgba(0, 0, 0, 0.4);
+    }
+
+
   }
   
