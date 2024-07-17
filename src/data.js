@@ -58,7 +58,22 @@ export const programs = [
         title: "Program Four",
         info: "This is the day that the lord has made. We will rejoice!",
         path: "/programs/444"
-    }
+    },
+    {
+        id: 5,
+        icon: <SiOpenaigym/>,
+        title: "Program Three",
+        info: "This is the day that the lord has made. We will rejoice!",
+        path: "/programs/555"
+    },
+    {
+        id: 6,
+        icon: <SiOpenaigym/>,
+        title: "Program Three",
+        info: "This is the day that the lord has made. We will rejoice!",
+        path: "/programs/666"
+    },
+    
 ]
 
 
