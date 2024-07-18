@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cards = ({className, children}) => {
   return (
-   <article className={`card ${className}`}>
+   <article className={`cards ${className}`}>
     {children}
    </article>
   )
