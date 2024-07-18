@@ -3,6 +3,7 @@ import './home.css';
 import MainHeader from '../../components/MainHeader';
 import Programs from '../../components/Programs';
 import Values from '../../components/Values';
+import Faqs from '../../components/Faqs';
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <MainHeader /> 
       <Programs />
       <Values />
+      <Faqs />
     </>
   );
 };
