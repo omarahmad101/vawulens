@@ -4,7 +4,7 @@ import MainHeader from '../../components/MainHeader';
 import Programs from '../../components/Programs';
 import Values from '../../components/Values';
 import Faqs from '../../components/Faqs';
-
+import Testimonials from '../../components/Testimonials';
 const Home = () => {
   return (
     <>
@@ -12,6 +12,7 @@ const Home = () => {
       <Programs />
       <Values />
       <Faqs />
+      <Testimonials />
     </>
   );
 };

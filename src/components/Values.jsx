@@ -26,7 +26,7 @@ const Values = () => {
             incidunt earum molestias? 
           </p>
           <div className="values__wrapper">
-            {values.map(({ id, icon, title, desc, path }) => {
+            {values.map(({ id, icon, title, desc}) => {
               return (
                 <Cards key={id} className="values__value">
                   <span>{icon}</span>
