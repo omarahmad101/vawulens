@@ -7,7 +7,8 @@
 }
 
 .main__header-container {
-  height: auto; /* Change height to auto to allow for content expansion */
+  height: auto;
+  /* Change height to auto to allow for content expansion */
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -60,23 +61,19 @@
   margin-top: 4rem;
 }
 
-.programs__program a{
+.programs__program a {
   margin-top: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.programs__container{
+.programs__container {
   font-size: 2.5rem;
   font-weight: 800;
   display: flex;
   justify-content: center;
 }
-
-
-
-
 
 /*====================Values====================*/
 .values__container {
@@ -94,7 +91,7 @@
   filter: saturate(1);
 }
 
-.values__right > p {
+.values__right>p {
   margin: 1.5rem 0 5rem;
 }
 
@@ -110,23 +107,24 @@
   position: relative;
 }
 
-
-
 .values__value span {
   position: absolute;
   top: -1.5rem;
-  text-align: left; /* Ensure the icon is also aligned left */
+  text-align: left;
+  /* Ensure the icon is also aligned left */
 }
 
 .values__value h4 {
-  text-align: left; /* Ensure the title is aligned left */
+  text-align: left;
+  /* Ensure the title is aligned left */
 }
 
 .values__value small {
-  text-align: left; /* Ensure the description is aligned left */
+  text-align: left;
+  /* Ensure the description is aligned left */
 }
 
-.value-title{
+.value-title {
   font-size: 2.5rem;
   font-weight: 800;
   display: flex;
@@ -134,21 +132,21 @@
 
 /*====================FAQs====================*/
 
-.faqs__wrapper{
+.faqs__wrapper {
   margin-top: 4rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem 5rem;
 }
 
-.faq{
+.faq {
   background: var(--color-gray-500);
   padding: 2rem;
   border-radius: 1rem;
   cursor: pointer;
 }
 
-.faq div{
+.faq div {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -160,10 +158,9 @@
   font-size: 1.5rem;
 }
 
-.faq p{
+.faq p {
   margin-top: 1.5rem;
 }
-
 
 /*====================testimonials====================*/
 
@@ -172,7 +169,7 @@
   margin-inline: auto;
 }
 
-.testimonials-cards{
+.testimonials-cards {
   margin-top: 2rem;
 }
 
@@ -226,11 +223,9 @@
   height: 3rem;
 }
 
-
 /*====================Footer====================*/
 
-
-.Footer{
+.Footer {
   background-color: var(--color-primary);
   margin-top: 7rem;
   padding-top: 7rem;
@@ -238,13 +233,13 @@
   color: var(--color-gray-100);
 }
 
-.footer__container{
+.footer__container {
   display: grid;
   grid-template-columns: 26rem 1fr 1fr 1fr;
   gap: 6rem;
 }
 
-.footer__container article{
+.footer__container article {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -260,8 +255,17 @@
   font-size: 1rem;
 }
 
+.footer__container a {
+  font-weight: 600;
+  transition: var(--transition);
+}
 
-.footer_socials{
+.footer__container a:hover {
+  color: wheat;
+  font-weight: 800;
+}
+
+.footer_socials {
   margin-top: 1.5rem;
   display: flex;
   gap: 1rem;
@@ -269,7 +273,7 @@
 }
 
 .footer_socials a {
-  background-color:var(--color-gray-100);
+  background-color: var(--color-gray-100);
   padding: 0.7rem;
   align-items: center;
   display: flex;
@@ -279,17 +283,16 @@
   transition: var(---transition);
 }
 
-
 .footer_socials a svg {
   color: var(--color-gray-600);
 }
 
-.footer_socials a:hover{
+.footer_socials a:hover {
   color: var(--color-gray-100);
   background: transparent;
 }
 
-.footer__copyright{
+.footer__copyright {
   color: var(--color-gray-100);
   align-items: center;
   text-align: center;
@@ -312,7 +315,8 @@
   }
 
   .main__header-right {
-    display: none; /* Hide the image container */
+    display: none;
+    /* Hide the image container */
   }
 
   .main__header-circle {
@@ -345,11 +349,11 @@
   }
 
   .footer__container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1px;
   }
 }
-
 
 @media screen and (max-width: 768px) {
   .main__header {
@@ -370,11 +374,13 @@
   }
 
   .main__header-right {
-    display: none; /* Hide the image container */
+    display: none;
+    /* Hide the image container */
   }
 
   .main__header-circle {
-    display: none; /* Hide the circle decoration */
+    display: none;
+    /* Hide the circle decoration */
   }
 
   .programs {
@@ -410,5 +416,3 @@
     gap: 2rem;
   }
 }
-
-
