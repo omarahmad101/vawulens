@@ -12,7 +12,7 @@ const Programs = () => {
     <section className="programs">
       <div className="container programs__container">
         {/* Fixed typo in class name */}
-        <SectionHead icon={<LiaCrownSolid />} title="Programs" />
+        <SectionHead icon={<LiaCrownSolid />} title="Programs"/ >
       </div>
       <div className="programs__wrapper">
         {

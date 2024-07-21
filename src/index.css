@@ -115,6 +115,14 @@ section {
   gap: 1rem;
 }
 
+.Sectionicon{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+
 .section__head span {
   background-color: var(--color-gray-500);
   padding: 0.8rem;
@@ -164,3 +172,22 @@ section {
   font-weight: 300;
 }
 
+@media screen and (max-width: 1024) {
+  .container {
+    width: var(--container-width-md);
+  }
+  h1 {
+    height: 1px;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+
+
+@media screen and (max-width: 600) {
+h1{
+  font-size: 2.2rem;
+  line-height: 1.3;
+}
+}
