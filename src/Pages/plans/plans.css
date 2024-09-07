@@ -1,0 +1,37 @@
+/* Container styling for the cards */
+.plans__container {
+    display: flex; /* Enables flexbox layout */
+    flex-wrap: wrap; /* Allows the cards to wrap to the next line on smaller screens */
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Centers the cards horizontally */
+    padding: 20px;
+  }
+  
+  /* Individual card styling */
+  .plan {
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Inner spacing */
+    width: calc(33.333% - 20px); /* Three cards per row, accounting for the gap */
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+    transition: transform 0.3s ease; /* Smooth scaling on hover */
+  }
+  
+  /* Hover effect for the cards */
+  .plan:hover {
+    transform: translateY(-5px); /* Moves card up slightly on hover */
+  }
+  
+  /* Responsive design adjustments for smaller screens */
+  @media (max-width: 992px) {
+    .plan {
+      width: calc(50% - 20px); /* Two cards per row for medium screens */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .plan {
+      width: 100%; /* Full width for small screens */
+    }
+  }
+  
